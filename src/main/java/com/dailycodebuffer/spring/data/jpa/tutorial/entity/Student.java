@@ -38,6 +38,48 @@ public class Student {
 	private Long studentId;
 	
 	private String firstName;
+	public Long getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(Long studentId) {
+		this.studentId = studentId;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	public String getGuardianName() {
+		return guardianName;
+	}
+	public void setGuardianName(String guardianName) {
+		this.guardianName = guardianName;
+	}
+	public String getGuardianEmail() {
+		return guardianEmail;
+	}
+	public void setGuardianEmail(String guardianEmail) {
+		this.guardianEmail = guardianEmail;
+	}
+	public String getGuardianMobile() {
+		return guardianMobile;
+	}
+	public void setGuardianMobile(String guardianMobile) {
+		this.guardianMobile = guardianMobile;
+	}
 	private String lastName;
 	
 	@Column(name= "email_address",
